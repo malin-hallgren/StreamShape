@@ -32,6 +32,7 @@ namespace StreamShape.Utilities
                         MenuDriver.ReturnPrevMenu();
                         break;
                     case 1:
+                        ActorMenu.Run(context);
                         MenuDriver.ReturnPrevMenu();
                         break;
                     case 2:

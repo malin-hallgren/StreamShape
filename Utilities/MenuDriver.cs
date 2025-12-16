@@ -76,7 +76,7 @@ namespace StreamShape.Utilities
 
         public static void ReturnPrevMenu()
         {
-            Console.WriteLine("Press any key to return to previous menu");
+            Console.WriteLine("\r\nPress any key to return to previous menu");
             Console.ReadKey(true);
             Console.Clear();
         }
